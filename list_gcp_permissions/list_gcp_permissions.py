@@ -16,8 +16,8 @@ def get_roles():
 
 def get_permissions(role):
     if role:
-        output = subprocess.check_output("gcloud iam roles describe {}".format(role), shell=True)
         try:
+            output = subprocess.check_output("gcloud iam roles describe {}".format(role), shell=True) # noqa
             return yaml.safe_load(output).get("includedPermissions", [])
         except:
             return []
