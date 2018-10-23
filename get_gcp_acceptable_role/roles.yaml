@@ -1,0 +1,5 @@
+roles:
+- roles/compute.admin
+- roles/compute.networkAdmin
+- roles/editor
+- roles/owner

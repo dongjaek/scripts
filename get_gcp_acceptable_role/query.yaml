@@ -1,0 +1,12 @@
+permissions:
+- compute.interconnects.create
+- compute.interconnects.delete
+- compute.interconnects.get
+- compute.interconnects.list
+- compute.interconnects.update
+- compute.routers.list
+- compute.routers.delete
+- compute.routers.get
+- compute.routers.create
+- compute.routers.update
+- compute.networks.updatePolicy 
